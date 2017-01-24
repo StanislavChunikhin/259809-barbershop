@@ -34,14 +34,15 @@
         <a href="#">средства для ухода</a>
       </div>
       <div class="input-form">
+        <form action="/echo" method="post">
         <fieldset>
           <legend>производители</legend>
-          <input type="checkbox" checked><label>baxter of california</label></input>
-          <input type="checkbox"><label>mr natty</label></input>
-          <input type="checkbox" checked><label>suavecito</label></input>
-          <input type="checkbox"><label>malin+goetz</label></input>
-          <input type="checkbox"><label>murray's</label></input>
-          <input type="checkbox" checked><label>american crew</label></input>
+          <label><input type="checkbox" checked>baxter of california</label>
+          <label><input type="checkbox">mr natty</label>
+          <label><input type="checkbox" checked>suavecito</label>
+          <label><input type="checkbox">malin+goetz</label>
+          <label><input type="checkbox">murray's</label>
+          <label><input type="checkbox" checked>american crew</label>
         </fieldset>
         <fieldset>
           <legend>группы товаров:</legend>
@@ -50,6 +51,7 @@
             <input type="radio" name="group" value="accesories"><label>аксессуары</label></input>
         </fieldset>
         <button>показать</button>
+      </form>
       </div>
       <div class="shop-items">
         <article>
